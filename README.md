@@ -16,7 +16,7 @@ Clone the repository using your favorite plugin manager, including
 [MunifTanjim/nui.vim](https://github.com/MunifTanjim/nui.nvim). For example, with packer:
 ```lua
   use { 
-    "cseickel/diagnostic-window.nvim"
+    "cseickel/diagnostic-window.nvim",
     requires = { "MunifTanjim/nui.nvim" }
   }
 
