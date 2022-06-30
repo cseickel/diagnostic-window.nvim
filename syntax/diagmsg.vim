@@ -1,7 +1,6 @@
 if exists("b:current_syntax")
     finish
 endif
-echom   "Current syntax: diagmsg"
 let b:current_syntax = "diagmsg"
 
 syntax match diagMsgBorder "┏"
